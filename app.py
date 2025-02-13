@@ -7,10 +7,10 @@ from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
+
 import os 
 
-load_dotenv()
+
 
 groq_api_key = "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"
 
