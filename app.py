@@ -22,7 +22,7 @@ def main():
     st.sidebar.title('Select an LLM')
     model = st.sidebar.selectbox(
         'Choose a model',
-        ['whisper-large-v3', 'deepseek-r1-distill-llama-70b']
+        ['llama-3.1-8b-instant', 'deepseek-r1-distill-llama-70b']
     )
     conversational_memory_length = st.sidebar.slider('Conversational memory length:', 1, 10, value = 5)
 
